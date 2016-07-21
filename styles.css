@@ -1,0 +1,104 @@
+@font-face{
+	font-family: 'DS-Digital';
+	src:
+		local('DS-DIGII.ttf');	
+}
+
+body{
+	font-family: "DS-Digital";
+	background-color: #ffcce6;
+}
+
+img{
+	display: inline-block;
+	padding: 30px;
+	margin: auto 32%;
+}
+
+#rio-clock{
+	background-color: #00ECB9;
+}
+
+#rio{
+	color: #396;
+	margin: 40px 0px 20px;
+	text-align: center;
+	font-size: 50px;
+
+}
+
+#rio2{
+	color: #396;
+	margin: auto;
+	text-align: center;
+	font-size: 30px;
+
+}
+
+#countdown-timer{
+	background-color: #00ECB9;
+	color: white;
+	/* We don't need margin auto, because the div is already the whole width of the page and we need to center the stuff 
+	in the div, not the div itself. So how do we center it? Answer: text-align center; */
+	text-align: center;
+}
+
+#countdown-timer > div{
+	padding: 10px;
+	border-radius: 3px;
+	background-color: #00BF96;
+	/* Make sure these divs behave like blocks, but are on the same line. Options? Inline-block */
+	display: inline-block;
+}
+
+
+#countdown-timer > div span{
+	padding: 15px;
+	border-radius: 3px;
+	background-color: #00816A;
+	display: inline-block;
+	font-size: 28px;
+}
+
+.small-text{
+	font-size: 28px;
+}
+
+#election-clock{
+	background-color: #ff3333;
+}
+
+#canada{
+	color: #990000;
+	margin: 40px 0px 20px;
+	text-align: center;
+	font-size: 50px;
+}
+
+#canada2{
+	color: #990000;
+	margin: auto;
+	text-align: center;
+	font-size: 30px;
+}
+
+#countdown-timer2{
+	background-color: #ff3333;
+	color: white;
+	text-align: center;
+}
+
+#countdown-timer2 > div{
+	padding: 10px;
+	border-radius: 3px;
+	background-color: #ff1a1a;
+	display: inline-block;
+}
+
+#countdown-timer2 > div span{
+	padding: 15px;
+	border-radius: 3px;
+	background-color: #cc0000;
+	display: inline-block;
+	font-size: 28px;
+}

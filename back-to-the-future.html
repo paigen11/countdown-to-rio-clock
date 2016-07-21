@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Winter is Coming - Back to the Future Style</title>
+	<link rel="stylesheet" type="text/css" href="styles2.css">
+</head>
+<body>
+	<div id="timers">
+	<!-- wrapper for both timers -->
+		<div id="timer1">	
+			<div id="destTimer">
+				<div class="month">
+					<div class="small-text1">MONTH</div>
+					<div class="month-number" contenteditable ="true"></div>	
+				</div>
+				<div class="day">
+					<div class="small-text1">DAY</div>
+					<div class="day-number" contenteditable ="true"></div>
+				</div>
+				<div class="year">
+					<div class="small-text1">YEAR</div>
+					<div class="year-number" contenteditable ="true"></div>
+				</div>
+				<div class="hour">
+					<div class="small-text1">HOUR</div>
+					<div class="hour-number" contenteditable ="true"></div>
+				</div>
+				<div class="minute">
+					<div class="small-text1">MIN</div>
+					<div class="minute-number" contenteditable ="true"></div>
+				</div>
+			</div>
+			<div id="timer-title">
+				<h3>DESTINATION TIME - INSERT YOUR OWN TIME ABOVE</h3>
+			</div>	
+		</div>	
+
+		<hr />
+
+		<div id="timer2">
+			<div id="presentTimer">
+				<div class="month1">
+					<div class="small-text">MONTH</div>
+					<div class="month-number1">??</div>
+				</div>
+				<div class="day1">
+					<div class="small-text">DAY</div>
+					<div class="day-number1">??</div>
+				</div>
+				<div class="year1">
+					<div class="small-text">YEAR</div>
+					<div class="year-number1">??</div>
+				</div>
+				<div class="hour1">
+					<div class="small-text">HOUR</div>
+					<div class="hour-number1">??</div>
+				</div>
+				<div class="minute1">
+					<div class="small-text">MIN</div>
+					<div class="minute-number1">??</div>
+				</div>
+			</div>
+			<div id="timer-title2">
+				<h3>PRESENT TIME</h3>
+			</div>
+		</div>	
+		<input class="button" type ="button" onclick="pausePresent();" value="Pause the timer">
+		<input class="button" type ="button" onclick="unpausePresent();" value="Resume the timer">
+		<hr />	
+	</div>
+	
+
+
+<script type = "text/javascript" src="scripts2.js"></script>
+</body>
+</html>

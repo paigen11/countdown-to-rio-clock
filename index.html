@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Countdown to Rio - Olympics 2016</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+	<div id="rio-clock">
+		<h2 id="rio">Countdown to Rio!</h2>
+		<h4 id="rio2">Ready for the US to dominate?</h4>
+		<!-- Wrapper for Rio countdown -->
+		<div id="countdown-timer">
+			<img src="images/rio.jpg">
+			<div class="weeks">
+				<span class="weeks-number">?</span>
+				<div class="small-text">Weeks</div>
+			</div>
+
+			<div class="days">
+				<span class="days-number">?</span>
+				<div class="small-text">Days</div>
+			</div>
+
+			<div class="hours">
+				<span class="hours-number">?</span>
+				<div class="small-text">Hours</div>
+			</div>
+
+			<div class="minutes">
+				<span class="minutes-number">?</span>
+				<div class="small-text">Minutes</div>
+			</div>
+
+			<div class="seconds">
+				<span class="seconds-number">?</span>
+				<div class="small-text">Seconds</div>
+			</div>
+		</div>
+		<input class="button" type="button" onclick="showRio();" value="Click for Rio">
+		<input class="button" type="button" onclick="pauseRio();" value="Click to Pause Rio">
+	</div>
+	
+	<div id="election-clock">	
+		<h2 id="canada">Countdown to the <s>US Election</s> Canadian Immigration!</h2>
+		<h4 id="canada2">Keep your stick on the ice, eh?</h4>
+		<!-- Wrapper for election countdown -->
+		<div id="countdown-timer2">
+			<img src ="images/canada.jpg">
+			<div class="weeks">
+				<span class="weeks-number1">?</span>
+				<div class="small-text">Weeks</div>
+			</div>
+
+			<div class="days">
+				<span class="days-number1">?</span>
+				<div class="small-text">Days</div>
+			</div>
+
+			<div class="hours">
+				<span class="hours-number1">?</span>
+				<div class="small-text">Hours</div>
+			</div>
+
+			<div class="minutes">
+				<span class="minutes-number1">?</span>
+				<div class="small-text">Minutes</div>
+			</div>
+
+			<div class="seconds">
+				<span class="seconds-number1">?</span>
+				<div class="small-text">Seconds</div>
+			</div>
+		</div>
+		<input class="button" type ="button" onclick="showElection();" value="Click for US Election">
+		<input class="button" type="button" onclick="pauseCanada();" value="Click to Pause Canada">
+	</div>
+<script type = "text/javascript" src="scripts.js"></script>
+</body>
+</html>

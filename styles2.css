@@ -1,0 +1,64 @@
+@font-face{
+	font-family: 'DS-Digital';
+	src:
+		local('DS-DIGII.ttf');
+		
+}
+
+body{
+	font-family: "DS-Digital";
+	background-color: #4d4d4d;
+}
+
+h3{
+	text-align: center;
+	background-color: black;
+	padding: 1px 5px;
+	color: white;
+	font-size: 25px;
+}
+
+#timer-title, #timer-title2{
+	display: inline-block;
+	margin: auto;
+}
+
+#destTimer, #presentTimer{
+	color: white;
+	text-align: center;
+}
+
+#destTimer > div, #presentTimer > div{
+	display: inline-block;
+	}
+
+.month, .day, .year, .hour, .minute, .month1, .day1, .year1, .hour1, .minute1{
+	width: 18%;
+	display: inline-block;
+	padding: 3px;
+	border-radius: 5px;
+	color: white;
+	text-align: center;
+	font-size: 25px;
+}
+
+.small-text, .small-text1{
+	background-color: red;
+}
+
+.month-number, .day-number, .year-number, .hour-number, .minute-number, .month-number1, .day-number1, .year-number1, .hour-number1, .minute-number1{
+	background-color: black;
+	top-padding: 3px;
+	height: 50px;
+	border: 2px white;
+	font-size: 65px;
+	line-height: 50px;
+}
+
+.month-number, .day-number, .year-number, .hour-number, .minute-number{
+	color: orange;
+}
+
+.month-number1, .day-number1, .year-number1, .hour-number1, .minute-number1{
+	color: yellow;
+}
